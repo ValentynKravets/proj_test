@@ -1,0 +1,29 @@
+db.php - підключення / створення бд 
+index.php - блек / основна сторінка 
+read.php - перегляд всіх запитів бд 
+submit.php - обробник запитів
+view_leads.php - перегляд/пошук/редагування запитів
+validationform.js - скрипти валідації запитів
+script_land.js - основні скрипти для роботи фронтенду
+validationform.css - стилі для попапу
+
+
+
+локальна розгортка проекту прописуємо в терміналі:
+php -S localhost:8001 
+якщо виникає помилка перевіряємо чи встановлено php
+    php -v 
+    якщо відсутній, встановлюємо 
+    команда для macos:
+        brew install php 
+    команди для windows: 
+        встановлюємо пакетинй менеджер 
+            Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+        встановлюємо через пакетний менджер php 
+            choco install php
+    перевіряємо навянвність php 
+        php -v
+
+лінки для перегляду блеку та лідів
+http://localhost:8001/
+http://localhost:8001/view_leads.php                 
