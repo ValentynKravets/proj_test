@@ -131,28 +131,7 @@
     gap: 10px;
 }
 
-.error-message {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f8d7da;
-    color: #721c24;
-    padding: 20px 30px;
-    border: 1px solid #f5c6cb;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    z-index: 1000;
-    max-width: 80%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+
 
 .error-message.show {
     opacity: 1;
